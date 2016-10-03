@@ -1,0 +1,32 @@
+{
+  "name": "pimatic-watchdog-unix",
+  "description": "Pimatic plugin which adds a simple watchdog on unix systems.",
+  "author": {
+    "name": "Lukas Reinhart",
+    "email": "reinhart.lukas+npm@gmail.com"
+  },
+  "main": "watchdog-unix",
+  "license": "GPL-2.0",
+  "files": [
+    "watchdog-unix.coffee",
+    "pimatic-watchdog-unix.sh",
+    "README.md",
+    "watchdog-unix-config-schema.coffee"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/thexperiments/pimatic-watchdog-unix",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thexperiments/pimatic-watchdog-unix.git"
+  },
+  "configSchema": "watchdog-unix-config-schema.coffee",
+  "dependencies": {},
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}

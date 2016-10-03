@@ -1,0 +1,6 @@
+node_modules
+doc/*
+.js
+.DS_STORE
+test.js
+promise-test.js
